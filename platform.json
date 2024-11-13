@@ -22,13 +22,13 @@
     "arduino": {
       "package": "framework-arduinoespressif8266",
       "script": "builder/frameworks/arduino.py"
-    },
+    }
   },
   "packages": {
     "toolchain-xtensa": {
       "type": "toolchain",
       "owner": "platformio",
-      "version": "~2.100300.220621",
+      "version": "~2.100300.220621"
     },
     "framework-arduinoespressif8266": {
       "type": "framework",
