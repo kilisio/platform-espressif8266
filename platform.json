@@ -47,9 +47,8 @@
     },
     "framework-arduinoespressif8266": {
       "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~3.30102.0"
+      "owner": "kilisio",
+      "version": "https://github.com/kilisio/Arduino/archive/refs/tags/rls.zip"
     },
     "framework-esp8266-rtos-sdk": {
       "type": "framework",
