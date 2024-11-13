@@ -11,7 +11,7 @@
     "106Micro"
   ],
   "engines": {
-    "platformio": "^6"
+    "platformio": ">=6.1.14"
   },
   "repository": {
     "type": "git",
@@ -23,60 +23,22 @@
       "package": "framework-arduinoespressif8266",
       "script": "builder/frameworks/arduino.py"
     },
-    "esp8266-rtos-sdk": {
-      "package": "framework-esp8266-rtos-sdk",
-      "script": "builder/frameworks/esp8266-rtos-sdk.py",
-      "description": "ESP8266 SDK based on FreeRTOS, a truly free professional grade RTOS for microcontrollers",
-      "homepage": "https://github.com/espressif/ESP8266_RTOS_SDK",
-      "title": "ESP8266 RTOS SDK"
-    },
-    "esp8266-nonos-sdk": {
-      "package": "framework-esp8266-nonos-sdk",
-      "script": "builder/frameworks/esp8266-nonos-sdk.py",
-      "description": "The non-OS SDK provides a set of application programming interfaces (APIs) for core ESP8266 functionalities such as data reception/transmission over Wi-Fi, TCP/IP stack functions, hardware interface functions and basic system management functions",
-      "homepage": "https://github.com/espressif/ESP8266_NONOS_SDK",
-      "title": "ESP8266 Non-OS SDK"
-    }
   },
   "packages": {
     "toolchain-xtensa": {
       "type": "toolchain",
       "owner": "platformio",
       "version": "~2.100300.220621",
-      "optionalVersions": ["~1.40802.0"]
     },
     "framework-arduinoespressif8266": {
       "type": "framework",
       "owner": "kilisio",
       "version": "https://github.com/kilisio/Arduino/archive/refs/tags/rls.zip"
     },
-    "framework-esp8266-rtos-sdk": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": ">=1.5.0-beta"
-    },
-    "framework-esp8266-nonos-sdk": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": ">=2.1.0"
-    },
-    "tool-esptool": {
-      "type": "uploader",
-      "owner": "platformio",
-      "version": "<2"
-    },
     "tool-esptoolpy": {
       "type": "uploader",
-      "owner": "platformio",
-      "version": "~1.30000.0"
-    },
-    "tool-mkspiffs": {
-      "type": "uploader",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.200.0"
+      "owner": "tasmota",
+      "version": "https://github.com/tasmota/esptool/releases/download/v4.7.6/esptool.zip"
     },
     "tool-mklittlefs": {
       "type": "uploader",
