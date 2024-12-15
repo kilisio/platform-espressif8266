@@ -40,6 +40,12 @@
       "owner": "tasmota",
       "version": "https://github.com/tasmota/esptool/releases/download/v4.7.6/esptool.zip"
     },
+    "tool-mkspiffs": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.200.0"
+    },
     "tool-mklittlefs": {
       "type": "uploader",
       "optional": true,
