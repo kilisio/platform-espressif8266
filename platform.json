@@ -25,11 +25,6 @@
     }
   },
   "packages": {
-    "toolchain-xtensa": {
-      "type": "toolchain",
-      "owner": "platformio",
-      "version": "~5.100200.0"
-    },
     "framework-arduinoespressif8266": {
       "type": "framework",
       "owner": "kilisio",
